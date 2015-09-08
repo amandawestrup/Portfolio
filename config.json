@@ -1,0 +1,12 @@
+{
+	"webserver": {
+		"fallback": "404.html",
+		"livereload": true,
+		"open": true
+	},
+	"paths": {
+		"server": {
+			"directory": "source"
+		} 
+	}
+}

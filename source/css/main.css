@@ -1,0 +1,97 @@
+body {
+	background-color: white;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 16px;
+}
+
+header img {
+	float: left;
+	margin: 0 10px;
+}
+
+header h2 {
+ 	margin-top: 12px;
+ 	margin-bottom:  0px;
+}
+
+header h3 {
+	margin-top: 0px
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: lighter;
+}
+
+header, footer, section {
+	margin: auto;
+	max-width: 980px;
+	padding: 50px;
+}
+
+section.hero {
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: calc(100vh - 100px);
+	max-width: 100%;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+
+
+section img {
+	float: left;
+	margin-right: 30px;
+	width: 40%;
+}
+
+section div {
+	overflow: hidden;
+}
+
+section::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+header {
+	margin: auto;
+	padding-bottom: 16px;
+	padding-top: 30px;
+}
+
+
+header nav {
+	text-align: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block; 
+}
+
+nav li a {
+	display: inline-block;
+	padding: 20px 15px;
+}
+
+section.concert-1 {
+	background-image:
+		url(//res.cloudinary.com/deq95sdur/image/upload/v1438398957/sara-sites/backgrounds/concert1.jpg);
+}
+
+
+
+

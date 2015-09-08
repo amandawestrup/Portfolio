@@ -1,0 +1,28 @@
+{
+  "name": "gallery-website",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cdierkens/gallery-website",
+  "authors": [
+    "Christopher Dierkens <cjdierkens@gmail.com>"
+  ],
+  "description": "Interactive photography website.",
+  "main": "index.html",
+  "keywords": [
+    "website",
+    "photograpy",
+    "gallery"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lightbox2": "~2.8.1",
+    "jquery": "~2.1.4"
+  }
+}
