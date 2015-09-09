@@ -84,7 +84,7 @@ gulp.task('styles', function() {
 			"**/lightbox.css",
 			"**/*.css"
 		]))
-		.pipe(concat('sara-sites.css'))
+		.pipe(concat('styles.css'))
 		.pipe(gulp.dest('build/css/'));
 });
 
@@ -95,7 +95,7 @@ gulp.task('scripts', function() {
 			"**/jquery.js",
 			"**/*.js"
 		]))
-		.pipe(concat('sara-sites.min.js'))
+		.pipe(concat('scripts.min.js'))
 		.pipe(uglify())
 		.pipe(gulp.dest('build/js/'));
 });

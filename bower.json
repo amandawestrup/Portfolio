@@ -22,7 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "lightbox2": "~2.8.1",
     "jquery": "~2.1.4"
   }
 }
