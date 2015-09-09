@@ -139,7 +139,10 @@ h5 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-header, footer, section {
+footer section,
+header,
+section,
+section.contact section {
 	margin: auto;
 	max-width: 980px;
 	padding: 50px;
@@ -152,21 +155,44 @@ section.hero {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: calc(100vh - 100px);
-	max-width: 100%;
 	overflow: hidden;
-	padding: 0;
-	width: 100%;
 }
 
+footer, 
+section.contact,
+section.hero {
+	width: 100%;
+	padding: 0;
+	max-width: 100%;	
+}
 
-section.concert-2 section {
+section.contact section {
 	box-shadow: none;
 	border-style: none;
 	text-align: center;
+	background-image: url("/images/contact.png");
+	height: 500px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-origin: content-box;
+    background-color: #f4805c;
+}
+
+section.contact section > div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
  
-section.concert-2 img {
+section.contact img {
 	width: auto;
+}
+
+section.information {
+	background-image: url("/images/background.png");
 }
 
 section.hero section {
@@ -191,6 +217,12 @@ section img {
 	float: left;
 	margin-right: 30px;
 	width: 40%;
+}
+
+section.contact img {
+	margin: 0;
+	width: auto;
+	float: none;
 }
 
 section div {
@@ -228,21 +260,8 @@ nav li a {
 	padding: 20px 15px;
 }
 
-section.concert-1 {
-	background-image:
-		url("/images/background.png");
-}
-section.concert-2 {
-	background-color: #F4805C;
-	width: 100%;
-	max-width: 100%;
-}
-
 footer {
 	background-color: #D67056;
 	text-align: center;
-	width: 100%;
-	max-width: 100%;
-
 }
 
