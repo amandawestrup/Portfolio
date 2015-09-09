@@ -171,7 +171,8 @@ section.contact section {
 	border-style: none;
 	text-align: center;
 	background-image: url("/images/contact.png");
-	height: 500px;
+	height: 50vw;
+    max-height: 500px;
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: 100%;
