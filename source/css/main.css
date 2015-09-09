@@ -4,6 +4,10 @@ body {
 	font-size: 16px;
 }
 
+header {
+	background-color: white;
+}
+
 header img {
 	vertical-align: middle;
 	display: inline-block;
@@ -19,29 +23,106 @@ header a {
 	text-decoration: none;
 }
 
+h1 {
+	color: #555555;
+	font-weight: lighter;
+	font-size: 45px;
+	margin-top: 100px;
+	margin-left: 160px;
+}
+
 header h2 {
  	margin-bottom:  0px;
 }
 
-header h2 a {
-	font-size: 25pt;
+header h2 {
+	font-size: 25px;
 	color: #555555;
 	text-decoration: none;
 }
 
 header h3 {
-	font-size: 16pt;
+	font-size: 16px;
 	color: #555555;
 	margin-top: 0px
 }
 
-nav a {
-	text-decoration: none;
+body h5 {
+	font-size: 35px;
 	color: #555555;
-	font-size: 16pt;
+	margin-top: 0px;
+	margin-bottom: 25px;
 }
 
-nav a:hover {
+section:not(.hero) {
+	border-bottom: 1px solid #ddd;
+	box-shadow: 0px 2px #ddd;
+}
+
+section.sarah a {
+	text-decoration: none;
+	color: #555555;
+}
+
+section.sarah p {
+	margin-top: 0px;
+}
+section.blackforest a {
+	text-decoration: none;
+	color: #555555;
+}
+
+section.blackforest p {
+	margin-top: 0px;
+}
+section.alberta a {
+	text-decoration: none;
+	color: #555555;
+}
+
+section.alberta p {
+	margin-top: 0px;
+}
+section.mcminnimans a {
+	text-decoration: none;
+	color: #555555;
+}
+
+section.mcminnimans p {
+	margin-top: 0px;
+}
+
+img.line {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section a:hover {
+	color: #F4805C;
+}
+
+p {
+	color: #555555;
+	font-size: 16px;
+	text-align: left;
+	margin-left: 160px;
+	margin-top: 65px;
+	max-width: 980px;
+}
+
+p a {
+	text-decoration: none;
+	color: #F4805C;
+}
+
+nav a {
+	margin-top: 10px;
+	text-decoration: none;
+	color: #555555;
+	font-size: 20px;
+}
+
+ nav a:hover {
 	color: #F4805C;
 }
 
@@ -54,11 +135,16 @@ h2, h3 {
 	font-weight: lighter;
 }
 
+h5 {
+	font-family: 'Montserrat', sans-serif;
+}
+
 header, footer, section {
 	margin: auto;
 	max-width: 980px;
 	padding: 50px;
 }
+
 
 section.hero {
 	background-attachment: fixed;
@@ -72,6 +158,34 @@ section.hero {
 	width: 100%;
 }
 
+
+section.concert-2 section {
+	box-shadow: none;
+	border-style: none;
+	text-align: center;
+}
+ 
+section.concert-2 img {
+	width: auto;
+}
+
+section.hero section {
+	border-style: none;
+	box-shadow: none;
+}
+
+section span img {
+	max-width: 200px;
+	margin-left: 160px;
+	margin-top: 75px;
+
+}
+
+img.button2 {
+	margin-left: 0px;
+	max-width: 200px;
+	max-height: 47px;
+}
 
 section img {
 	float: left;
@@ -116,9 +230,19 @@ nav li a {
 
 section.concert-1 {
 	background-image:
-		url(//res.cloudinary.com/deq95sdur/image/upload/v1438398957/sara-sites/backgrounds/concert1.jpg);
+		url("/images/background.png");
+}
+section.concert-2 {
+	background-color: #F4805C;
+	width: 100%;
+	max-width: 100%;
 }
 
+footer {
+	background-color: #D67056;
+	text-align: center;
+	width: 100%;
+	max-width: 100%;
 
-
+}
 
